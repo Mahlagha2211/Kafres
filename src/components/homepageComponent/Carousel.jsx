@@ -6,22 +6,22 @@ export default function Carousel() {
     initFlowbite(); // این کد باعث میشه کامپوننت هایی که data-attribute دارن دوباره initialize بشن
   }, []);
   return (
-    <div className="pt-[80px] p-12">
+    <div className="pt-[80px] px-10 pb-4 ">
       <div
         id="default-carousel"
-        className="relative w-full"
+        className="relative w-[100%] h-[100%] "
         data-carousel="slide"
       >
         {/* Carousel wrapper */}
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-[420px]">
+        <div className="relative overflow-hidden rounded-lg md:h-[420px] sm:h-80 h-72">
           {/* Item 1 */}
           <div
-            className="hidden duration-700 ease-in-out"
+            className="hidden duration-700 ease-in-out "
             data-carousel-item="active"
           >
             <img
               src="./image/carousel-1.svg"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute w-full   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
           </div>

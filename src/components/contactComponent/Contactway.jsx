@@ -14,14 +14,14 @@ export default function Contactway() {
   });
 
   return (
-    <div className="flex flex-col py-28 items-center px-20 gap-y-14">
-      <div className="bg-mainColor py-2 px-28 rounded-full text-[18px]">
+    <div className="flex flex-col py-28 items-center sm:px-12 p-8  gap-y-14">
+      <div className="bg-mainColor py-2 sm:w-96 max-sm:px-12 sm:text-[18px] text-[14px] rounded-full text-center">
         راه ارتباطی مد نظر را انتخاب کنید
       </div>
-      <div className="w-full  py-8 px-4 grid grid-cols-3 gap-x-8">
-        <div className="space-y-4">
+      <div className="w-full  py-8 px-4 grid lg:grid-cols-3 gap-x-8 gap-y-10">
+        <div className="space-y-4 max-lg:w-[80%] max-sm:w-full w-full mx-auto">
           <div className="footerItem">فرم</div>
-          <div className="text-justify px-6">
+          <div className="text-justify ">
             <Formik
               initialValues={{
                 username: "",
@@ -97,14 +97,14 @@ export default function Contactway() {
             </Formik>
           </div>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 max-lg:w-[80%] max-sm:w-full w-full mx-auto">
           <div className="footerItem">تماس</div>
           <div className="flex justify-between px-6">
             <p className="text-center">989155151515+</p>
             <p className="text-[18px] ">پشتیبانی</p>
           </div>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 max-lg:w-[80%] max-sm:w-full w-full mx-auto">
           <div className="footerItem">شبکه های اجتماعی </div>
           <div className="flex flex-col items-center justify-between h-36 ">
             <a href="" className="flex gap-x-3 items-center">

@@ -1,12 +1,14 @@
 export default function Works() {
   return (
-    <div className="flex flex-col justify-center items-center gap-y-16 mb-20  mx-20 ">
-      <div className="bg-mainColor w-96 rounded-full text-center font-bold py-2">
+    <div className="flex flex-col justify-center items-center gap-y-16 mb-20 mx-8  sm:mx-12 ">
+      <div className="bg-mainColor w-44  sm:w-96 rounded-full text-center font-bold py-2">
         نحوه کار ما
       </div>
-      <div className="bg-maincolor1 w-full rounded-lg relative h-[850px]">
-        <div className="absolute left-[10%] top-10">
-          <p className="p-4 border rounded-full inline-block absolute -right-35 w-28 text-center font-extrabold text-[15px] ">1- ثبت سفارش</p>
+      <div className="bg-maincolor1 w-full rounded-lg relative h-20">
+        {/*  <div className="absolute left-[10%] top-10">
+          <p className="p-4 border rounded-full inline-block absolute -right-35 w-28 text-center font-extrabold text-[15px] ">
+            1- ثبت سفارش
+          </p>
           <p className="border w-[300px] text-justify p-10 h-52 flex justify-center items-center">
             اولین کار اینه که شما قالب هارو مشاهده کنید و هرکدوم رو که پسند
             کردید ثبت سفارش کنید.
@@ -39,9 +41,9 @@ export default function Works() {
             در آخر هم کارهای مربوط به ارتباط وبسایت به سرور و قرار گرفتن تو
             دنیای اینترنت توسط بک اند انجام میشه. و وبسایت شما آماده میشه
           </p>
-        </div>
+        </div> */}
       </div>
-      <div className="bg-maincolor1 space-y-7  w-full rounded-lg py-14 px-20">
+      <div className="bg-maincolor1 space-y-7  w-full rounded-lg py-14 px-10 text-justify max-sm:text-[15px]">
         <p>
           تیم کافرس با تمرکز روی طراحی سایت برای کافه و رستوران، قصد داره به این
           دسته از کسب و کار ها و حتی هر نوع کسب و کار دیگه ای کمک کنه تا بتونن

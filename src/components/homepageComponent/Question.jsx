@@ -28,19 +28,25 @@ export default function Question() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center gap-y-16 mb-20  mx-20 ">
-      <div className="bg-mainColor w-96 rounded-full text-center font-bold py-2">
+    <div className="flex flex-col justify-center items-center gap-y-16 mb-20  mx-8 sm:mx-12  ">
+      <div className="bg-mainColor w-44  sm:w-96 rounded-full text-center font-bold py-2">
         سوالات متداول
       </div>
-      <div className="w-[80%] space-y-6">
+      <div className="lg:w-[80%] md:w-[90%] w-full space-y-6">
         {questions.map((item, index) => (
           <div key={index} className="space-y-4">
             <div
-              className="questions cursor-pointer p-4 font-bold"
+              className="questions cursor-pointer p-4 sm:font-bold "
               onClick={() => handleQuestions(index)}
             >
-             <span className={`transform transition-transform duration-700 ${openIndex==index? "rotate-180":"rotate-0"}`}> {openIndex == index ? <FaMinus /> : <FaPlus />}</span>
-              {item.question}
+              <span
+                className={`transform transition-transform duration-700  ${
+                  openIndex == index ? "rotate-180" : "rotate-0"
+                }`}
+              >
+                {openIndex == index ? <FaMinus /> : <FaPlus />}
+              </span>
+              <p className="max-sm:text-[15px]">{item.question}</p>
             </div>
             <div
               ref={(el) => (answerRefs.current[index] = el)}
@@ -52,7 +58,6 @@ export default function Question() {
               }}
               className={`overflow-hidden transition-all duration-700 ease-in-out px-10 text-justify  `}
             >
-
               {item.answer}
             </div>
           </div>

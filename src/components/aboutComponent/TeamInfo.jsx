@@ -1,10 +1,12 @@
 export default function TeamInfo() {
   return (
-    <div className="flex flex-col gap-y-20 px-20 py-24">
-      <div className="grid grid-cols-2 items-center gap-x-24">
-        <div className="">
-          <p className="text-[17px] font-bold leading-10">سید علیرضا هادیپور</p>
-          <p className="text-justify">
+    <div className="flex flex-col gap-y-20 sm:px-12 px-8  py-24">
+      <div className="sm:grid sm:grid-cols-2 flex flex-col-reverse gap-y-6 items-center lg:gap-x-20 md:gap-x-10 gap-x-6">
+        <div>
+          <p className="text-[17px] font-bold leading-10 flex items-center">
+            سید علیرضا هادیپور
+          </p>
+          <p className="text-justify max-md:text-[14px]">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
@@ -16,13 +18,13 @@ export default function TeamInfo() {
             استفاده قرار گیرد.
           </p>
         </div>
-        <div className="bg-maincolor1 h-full rounded-2xl"></div>
+        <div className=" sm:h-full rounded-2xl min-h-[200px] bg-maincolor1 w-full"></div>
       </div>
-      <div className="grid grid-cols-2 items-center gap-x-24">
-        <div className="bg-maincolor1 h-full rounded-2xl"></div>
+      <div className="sm:grid sm:grid-cols-2 flex flex-col gap-y-6 items-center lg:gap-x-20 md:gap-x-10 gap-x-6">
+        <div className="sm:h-full rounded-2xl min-h-[200px] bg-maincolor1 w-full"></div>
         <div>
           <p className="text-[17px] font-bold leading-10">مه لقا توکلی</p>
-          <p className="text-justify">
+          <p className="text-justify max-md:text-[14px]">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
@@ -35,10 +37,10 @@ export default function TeamInfo() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 items-center gap-x-24">
+      <div className="sm:grid sm:grid-cols-2 flex flex-col-reverse gap-y-6 items-center lg:gap-x-20 md:gap-x-10 gap-x-6">
         <div className="">
           <p className="text-[17px] font-bold leading-10">میثم امیدی</p>
-          <p className="text-justify">
+          <p className="text-justify max-md:text-[14px]">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
@@ -50,7 +52,7 @@ export default function TeamInfo() {
             استفاده قرار گیرد.
           </p>
         </div>
-        <div className="bg-maincolor1 h-full rounded-2xl"></div>
+        <div className="sm:h-full rounded-2xl min-h-[200px] bg-maincolor1 w-full"></div>
       </div>
     </div>
   );

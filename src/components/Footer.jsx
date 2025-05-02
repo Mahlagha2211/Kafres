@@ -5,25 +5,33 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-maincolor1  py-8 px-4 grid grid-cols-3 gap-x-8">
-      <div className="space-y-4">
+    <div className="bg-maincolor1  py-8 px-4 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1    gap-x-8 gap-y-8 max-[400px]:text-[13px]">
+      <div className="space-y-4 ">
         <div className="footerItem">ما را در شبکه های اجتماعی دنبال کنید</div>
         <div className="flex flex-col items-center justify-between h-36 ">
-          <a href="" className="flex gap-x-3 items-center">
-            <p className="text-[18px]">Kafres_website</p>
-            <FaInstagram className="text-2xl" />
+          <a href="" className="flex gap-x-3 items-center ">
+            <p className="text-[18px] max-[400px]:text-[15px]">
+              Kafres_website
+            </p>
+            <FaInstagram className="text-2xl max-[400px]:text-[20px]" />
           </a>
           <a href="" className="flex gap-x-3 items-center">
-            <p className="text-[18px]">Kafres_website</p>
-            <FaTelegramPlane className="text-2xl" />
+            <p className="text-[18px] max-[400px]:text-[15px]">
+              Kafres_website
+            </p>
+            <FaTelegramPlane className="text-2xl max-[400px]:text-[20px]" />
           </a>
           <a href="" className="flex gap-x-3 items-center">
-            <p className="text-[18px]">Kafres_website</p>
-            <FaYoutube className="text-2xl" />
+            <p className="text-[18px] max-[400px]:text-[15px]">
+              Kafres_website
+            </p>
+            <FaYoutube className="text-2xl max-[400px]:text-[20px]" />
           </a>
           <a href="" className="flex gap-x-3 items-center">
-            <p className="text-[18px]">Kafres_website</p>
-            <FaTwitter className="text-2xl" />
+            <p className="text-[18px] max-[400px]:text-[15px]">
+              Kafres_website
+            </p>
+            <FaTwitter className="text-2xl max-[400px]:text-[20px]" />
           </a>
         </div>
       </div>
@@ -45,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="space-y-4">
+      <div className="space-y-4 ">
         <div className="footerItem">با کافرس همراه باشید</div>
         <div className="text-justify px-6">
           رویکر و هدف اصلی ما رضایت شما عزیزان است. همواره در تلاشیم تا با کمک
