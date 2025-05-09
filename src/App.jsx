@@ -6,7 +6,7 @@ import PortfolioLayout from "./components/portfoliopageComponent/PortfolioLayout
 import Detail from "./components/portfoliopageComponent/Detail";
 import ScrollToTop from "./components/ScrollToTop";
 import Blogpage from "./pages/Blogpage";
-import BlogLayout from "./components/blogpageComponent/Bloglayout";
+import BlogLayout from "./components/blogpageComponent/BlogLayout";
 import BlogDetail from "./components/blogpageComponent/BlogDetail";
 import AboutPage from "./pages/AboutPage";
 import Contact from "./pages/Contact";
