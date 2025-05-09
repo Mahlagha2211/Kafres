@@ -1,6 +1,6 @@
 import Carousel from "../components/homepageComponent/Carousel";
 import Services from "../components/homepageComponent/Services";
-import Works from "../components/homepageComponent/works";
+import Works from "../components/homepageComponent/Works";
 import Navbar from "../components/Navbar";
 import Order from "../components/homepageComponent/Order";
 import Portfolio from "../components/homepageComponent/Portfolio";
